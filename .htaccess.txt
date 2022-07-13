@@ -1,0 +1,21 @@
+# spécification des jeux de caractères des documents (à compléter si besoin)
+AddCharset utf-8 .css .xml .po .php .js .html
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#php5 en actif
+
+php56 1
+
+
+# Protection du fichier MaConnexion.php
+<files MaConnexion.php>
+order allow,deny
+deny from all
+</files>
+
+# Desactivation de l'affichage des répertoires
+Options All -Indexes

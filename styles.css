@@ -1,0 +1,135 @@
+*{
+	padding:0px; 
+	margin:0px;;
+}
+
+/*on centre le site. le body>div c'est le div directement enfant de body, le tout premier après <body>  */
+
+
+body > div:first-child{
+max-width:1200px;
+margin:auto;
+padding:10px;
+}
+
+header{
+	margin: auto;
+	min-height: 270px;
+	display: block;
+	border-radius: 4px;
+        background-image: url("template images/banner.png");
+}
+
+footer{
+	padding: 10px;
+	text-align: center;
+	vertical-align:middle;
+	margin-top: 10px;
+	min-height: 50px;
+	background-color: #B9DCF3 ;
+	display: block;
+	font-size: 1em;
+        color: #238ae5;
+	border-radius: 4px;
+}
+
+section{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	margin:auto;
+	min-height:500px;
+}
+
+nav{
+	background-color: #B9DCF3;
+	text-align:center;
+	font-size: 1em;
+	padding: 20px;
+	display:block;
+	margin-bottom: 10px;
+	border-radius: 4px;
+
+}
+
+nav a{
+	background-color:#EFF4F7;
+	max-height: 16px;
+	padding:5px;
+	padding-left:40px;
+	padding-right:40px;
+	color: #238ae5;
+        font-size: 1.2em;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 4px;
+}
+
+nav a:hover , .selected{
+	box-shadow: 4px 4px 2px #444;
+	border: outset;
+	border-width: 1px;
+}
+
+nav a:link, header a:link{
+	text-decoration:none;
+        color: #238ae5;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tableTagsGestion td {
+    padding:5px; 
+    border:0px ;
+    margin:auto;
+}
+
+/*table caption{
+    margin-bottom: 50px;
+    font-size: 2em;
+}*/
+
+.tableheaders {
+    height: 50px;
+}
+
+td{
+    padding:5px; 
+    border:1px #B9DCF3 solid ;
+    margin:auto;
+} 
+
+td:nth-last-child(-n+1), td:nth-last-child(-n+2){
+    width: 100px;
+    text-align: center;
+}
+
+td:first-child{
+    width: 30%;
+}
+
+
+.champText{
+    padding: 5px;
+    width: 300px;
+    height: 20px;
+    font-size: 1.2em;
+}
+
+button, .bouton{
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+}
+
+#err-libelle, #err-titre, #err-contenu{
+    color:red;
+}
